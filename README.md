@@ -10,6 +10,7 @@ To perform regular differncing,seasonal adjustment and log transformatio on inte
 4. Plot the data according to need, before and after regular differncing,seasonal adjustment,log transformation.
 5. Display the overall results.
 ### PROGRAM:
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -62,6 +63,7 @@ plt.xlabel('Year')
 plt.ylabel('SDiff(RDiff(Log(No of Mileage)))')
 plt.tight_layout()
 plt.show()
+```
 ### OUTPUT:
 <img width="1261" height="323" alt="image" src="https://github.com/user-attachments/assets/637376a8-7e98-4d62-82f4-356882712bdc" />
 <img width="1263" height="326" alt="image" src="https://github.com/user-attachments/assets/a86531be-6c51-485f-b56a-18440a9545b9" />
